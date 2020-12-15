@@ -1,0 +1,150 @@
+/* always try to organize the code, do not make too mich lengthy and do not repeat the same code again and again*/
+/* also if every step has same code give class or id same to all and change the design by using code in one style*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+}
+/* use first assigned word in css to style all the letter included inside the navbar*/
+/* as a result you see margin below by some px*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'ubuntu', sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.intro{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+}
+h2{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+padding: 3% 15% 10%;
+}
+.dog{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light',sans-serif;
+}
+/*button*/
+.btn{
+  margin:5% 3% 5% 0;
+}
+/* features section*/
+#features{
+  padding:7% 15%;
+  position: relative;
+  background-color: white;
+
+
+}
+.feature{
+  text-align: center;
+  padding:5%;
+
+}
+p{
+  color:grey;
+}
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color:#ff4c68 ;
+}
+#testimonials{
+
+  text-align: center;
+    background-color:#ef8172;
+    color:#ffff;
+
+}
+.dogy{
+  width: 20%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.logos{
+  width:10%;
+  margin: 30px 20px 50px 30px;
+
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.prices{
+  padding:3% 2%;
+}
+/*pricing padding*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+@media(max-width:1028px){
+
+#title{
+  text-align: center;
+}
+
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+#cta{
+  color:#fff;
+  background-color: #ff46c8;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding:7% 15%;
+}
+.social{
+  margin:5px 10px;
+}
+.social:hover{
+  color:#ff46c8;
+}
+.eror{
+  background-color: #ff46c8;
+  font-size: 2rem;
+
+}
+.user{
+  width:200px;
+  height: 200px;
+}
